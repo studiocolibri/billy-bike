@@ -1,0 +1,71 @@
+/*
+* MODULES
+*/
+
+.block-mw {
+    @include max-width;
+}
+
+.block-lw {
+    @include max-width;
+    max-width:626px;
+}
+
+a {
+    color: $blue;
+    text-decoration:none;
+    transition:color 200ms ease-out;
+
+    &:hover, &:active, &:focus {
+        color:#0c71c3;
+    }
+}
+
+.button {
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0 1em;
+    border-width: 0;
+    border-radius: 81px;
+    letter-spacing: 0px;
+    font-size: 16px;
+    font-weight:500;
+    background-color: $light-blue;
+    position: relative;
+
+    &:after {
+        position: relative;
+        margin-left: -1em;
+        opacity: 0;
+        text-shadow: none;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: none;
+        line-height: 1em;
+        text-transform: none;
+        content: "→";
+        transition: all 200ms ease-out;
+    }
+
+    &:hover, &:focus {
+        color:white;
+
+        &:after {
+            margin-left:0.3em;
+            opacity:1;
+        }
+    }
+}
+
+.text-link {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    transition: 130ms color ease-out;
+
+    &:hover, &:focus {
+        
+    }
+}

@@ -1,0 +1,21 @@
+$blue : #2ea3f2;
+$light-blue:#66ccfb;
+$light-gray: rgba(0,0,0,.03);
+$text-color:#878787;
+$text-color-dark:#686868;
+
+$su: 20px; // spacing-unit
+
+$mw: 1080px; // max-width
+$mq-large: 980px;
+$mq-small: 480px;
+
+
+@import 'partials/_reset';
+@import 'partials/_mixins';
+@import 'partials/_base';
+@import 'partials/_typo';
+@import 'partials/_modules';
+@import 'partials/_home';
+@import 'partials/_header';
+@import 'partials/_footer';

@@ -1,0 +1,262 @@
+/*
+* HOMEPAGE
+*/
+
+#section-intro {
+    background: url(https://billy.bike/wp-content/uploads/2018/12/Billy-crowdfunding-4.jpg) center center no-repeat;
+    background-size:cover;
+    padding-top:60px;
+    margin-top:63px;
+    height:85vh;
+}
+.site-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.5em;
+    text-align: center;
+    margin:0;
+    padding-bottom:$su/2;
+}
+
+.site-description {
+    line-height:1.3em;
+    font-size:20px;
+    font-weight:500px;
+}
+
+.site-title, .site-description {
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.55) 1.6px 1.6px 1.6px;
+    text-align: center;
+}
+
+.home-section {
+    padding:$su*6 0;
+}
+
+.download-app {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    margin-top:$su*2;
+
+    @media screen and (min-width:$mq-large) {
+        flex-direction:row;
+        justify-content: space-between;
+    }
+}
+
+.download-app__link {
+    text-align: center;
+    display:flex;
+    justify-content:center;
+
+    &:first-of-type {
+        margin-bottom:$su;
+    }
+
+    @media screen and (min-width:$mq-large) {
+        flex:1;
+
+        &:first-of-type {
+            margin-bottom:0;
+        }
+    }
+}
+
+.download-app__img {
+    display: block;
+    max-width:140px;
+    width:100%;
+
+    @media screen and (min-width:$mq-large) {
+        max-width:175px;
+    }
+}
+
+#press {
+    background-color:$light-blue;
+    display:none;
+    padding:15px 0;
+
+    @media screen and (min-width:$mq-large) {
+        display:block;
+    }
+}
+
+.press__list {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.press__list__item {
+    list-style:none;
+}
+
+.press__list__img {
+    width:100%;
+    max-width:160px;
+}
+
+#le-velo {
+
+    h1 {
+        font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+        line-height:1.5em;
+        color:$text-color-dark;
+        margin-bottom:$su*2;
+        padding-bottom:0;
+    }
+
+    p {
+        line-height:2.2em;
+        font-size: 16px;
+        font-weight:400;
+    }
+}
+
+.le-velo__blocks {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+
+    @media screen and (min-width:$mq-large) {
+        flex-direction:row;
+        max-width:$mw;
+    }
+}
+
+.le-velo__block {
+    flex:1;
+
+    @media screen and (min-width:$mq-large) {
+        
+        &:first-of-type {
+            margin-right:$su;
+            max-width:362px;
+        }
+    }
+}
+
+.le-velo__how {
+    margin-top:$su*2;
+}
+
+.le-velo__img {
+    width:90%;
+}
+
+.comment__title {
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color:$text-color-dark;
+    text-align: center;
+    font-size:40px;
+    font-weight:500;
+    margin-bottom:$su*2;
+}
+
+.comment__blocks {
+    display:flex;
+    flex-wrap:wrap;
+
+    @media screen and (min-width:$mq-small) {
+        justify-content: space-between;
+    }
+}
+
+.comment__block {
+    width:100%;
+
+    @media screen and (min-width:$mq-small) {
+        width:40%;
+    }
+    
+    @media screen and (min-width:$mq-large) {
+        width:calc(25% - 50px);
+    }
+}
+
+.comment__block__img-wrapper {
+    display: block;
+    border-radius: 200px 200px 200px 200px;
+    overflow: hidden;
+    box-shadow: 0px 0px 80px 0px rgba(67,96,124,0.1);
+    margin:$su*2 auto $su auto;
+    max-width:268px;
+}
+
+.comment__block__img {
+    width:100%;
+    
+}
+
+.comment__block__title {
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size:20px;
+    color:$text-color-dark;
+    font-weight:500;
+}
+
+.comment__block__txt {
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size:15px;
+    color:$text-color;
+    font-weight:500;
+    line-height: 1.8em;
+}
+
+#zone {
+    background-color: #f2f6f9;
+
+    h1 {
+        font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+        line-height:1.5em;
+        color:$text-color-dark;
+        margin-bottom:$su*2;
+        padding-bottom:0;
+    }
+
+    p {
+        line-height:2.2em;
+        font-size: 16px;
+        font-weight:400;
+    }
+}
+
+.zone__blocks {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+
+    @media screen and (min-width:$mq-large) {
+        flex-direction:row;
+        max-width:$mw;
+    }
+}
+
+.zone__block {
+    flex:1;
+
+    @media screen and (min-width:$mq-large) {
+        width:calc(50% - 40px);
+    }
+}
+
+.zone__img-wrapper {
+    display:block;
+    max-width:318px;
+    width:100%;
+    line-height:0;
+    box-shadow: -40px 40px 120px -24px rgba(67,96,124,0.5);
+}
+
+.zone__img {
+    
+    width:100%;
+}

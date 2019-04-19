@@ -1,0 +1,7 @@
+baseURL = "https://www.billy.bike/"
+languageCode = "fr-be"
+title = "Billy bike"
+
+[params]
+    description = "Service de location de vélo à assistance électrique à Bruxelles"
+
