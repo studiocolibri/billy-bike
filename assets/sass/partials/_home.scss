@@ -243,8 +243,16 @@
 .zone__block {
     flex:1;
 
+    &:first-of-type {
+        margin-bottom:$su*4;
+    }
+
     @media screen and (min-width:$mq-large) {
         width:calc(50% - 40px);
+
+        &:first-of-type {
+            margin-bottom:0
+        }
     }
 }
 
