@@ -282,6 +282,14 @@
     color:white;
     padding:$su*2 0;
     display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media screen and (min-width: $mq-large) {
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 #zone .zone-numbers__block__num {
