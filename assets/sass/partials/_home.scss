@@ -35,6 +35,13 @@
     padding:$su*6 0;
 }
 
+.home-section__title {
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color:$text-color-dark;
+    font-size:40px;
+    font-weight:500;
+}
+
 .download-app {
     display:flex;
     flex-wrap:wrap;
@@ -51,6 +58,7 @@
     text-align: center;
     display:flex;
     justify-content:center;
+    align-items:flex-start;
 
     &:first-of-type {
         margin-bottom:$su;
@@ -103,8 +111,6 @@
 #le-velo {
 
     h1 {
-        font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-        font-weight: 500;
         font-size: 35px;
         line-height:1.5em;
         color:$text-color-dark;
@@ -147,16 +153,17 @@
 }
 
 .le-velo__img {
-    width:90%;
+    width:100%;
+
+    @media screen and (min-width:$mq-large) {
+        width:90%;
+    }
+    
 }
 
 .comment__title {
-    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-    color:$text-color-dark;
-    text-align: center;
-    font-size:40px;
-    font-weight:500;
     margin-bottom:$su*2;
+    text-align: center;
 }
 
 .comment__blocks {
@@ -187,6 +194,7 @@
     box-shadow: 0px 0px 80px 0px rgba(67,96,124,0.1);
     margin:$su*2 auto $su auto;
     max-width:268px;
+    width:70%;
 }
 
 .comment__block__img {
@@ -195,10 +203,7 @@
 }
 
 .comment__block__title {
-    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size:20px;
-    color:$text-color-dark;
-    font-weight:500;
 }
 
 .comment__block__txt {
@@ -211,6 +216,7 @@
 
 #zone {
     background-color: #f2f6f9;
+    padding-bottom:0;
 
     h1 {
         font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
@@ -264,7 +270,78 @@
     box-shadow: -40px 40px 120px -24px rgba(67,96,124,0.5);
 }
 
-.zone__img {
-    
+.zone__img {   
     width:100%;
+}
+
+.zone-numbers {
+    background-image: linear-gradient(180deg,rgba(33,122,206,0.7) 0%,rgba(102,204,251,0.63) 100%),url(https://billy.bike/wp-content/uploads/2018/12/Billy-17.jpg);
+    background-position:center;
+    background-size: cover;
+    margin-top:$su*4;
+    color:white;
+    padding:$su*2 0;
+    display:flex;
+}
+
+#zone .zone-numbers__block__num {
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size:93px;
+    font-weight:500;
+    margin-top:$su*2;
+    margin-bottom:$su/2;
+    text-align: center;
+    line-height:1;
+}
+
+#zone .zone-numbers__block__txt {
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size:14px;
+    font-weight:500;
+    text-align: center;
+}
+
+.prix__title {
+    margin-bottom:$su*2;
+}
+
+.prix__block {
+    padding:$su*2 0;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight:500;
+
+    &:first-of-type {
+        border-top:1px solid #e0e7ed;
+        border-bottom:1px solid #e0e7ed;
+    }
+}
+
+.prix__subtitle {
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color:$text-color-dark;
+}
+
+.prix__description {
+    line-height: 2.2em;
+    font-size:15px;
+}
+
+.prix__price {
+    font-size:30px;
+    margin-top:$su*2;
+    color:$text-color-dark;
+}
+
+.prix__ask-pack {
+    margin-top:$su*2;
+
+    a {
+        font-family: "Open Sans",Arial,sans-serif;
+        text-transform:uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        color:#66ccfb;
+    }
 }
