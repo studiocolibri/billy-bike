@@ -300,6 +300,10 @@
     margin-bottom:$su/2;
     text-align: center;
     line-height:1;
+    
+    @media screen and (min-width: $mq-large) {
+        margin: $su*4 $su*2 0 $su*2;
+    }
 }
 
 #zone .zone-numbers__block__txt {
@@ -307,6 +311,10 @@
     font-size:14px;
     font-weight:500;
     text-align: center;
+    
+    @media screen and (min-width: $mq-large) {
+        margin-bottom: $su*4;
+    }
 }
 
 .prix__title {
