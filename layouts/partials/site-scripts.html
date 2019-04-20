@@ -1,5 +1,8 @@
 {{ $main := resources.Get "js/main.js" }}
 {{ $defaultJS := slice $main | resources.Concat "js/global.js" }}
 {{ $globalJS := $defaultJS | resources.Minify | resources.Fingerprint }}
-<script src="{{ $globalJS.Permalink }}"></script>
+<!--<script src="{{ $globalJS.Permalink }}"></script>-->
+<script>
+var menuToggle=document.querySelector("#site-nav__toggle"),siteHeader=document.querySelector("#site-header"),menuLinks=document.querySelectorAll(".site-nav__link");function closeMenu(){console.log("closemenu"),menuToggle.setAttribute("aria-expanded","false"),siteHeader.classList.remove("is-active")}console.log("ok"),menuToggle.addEventListener("click",function(){siteHeader.classList.contains("is-active")?closeMenu():(siteHeader.classList.add("is-active"),this.setAttribute("aria-expanded","true"))}),menuLinks.forEach(function(e){e.addEventListener("click",closeMenu)});
+</script>
 
