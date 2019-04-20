@@ -10,7 +10,6 @@
 	  <meta property="og:url" content="{{ .Site.BaseURL }}" />
     <meta property="og:title" content="{{ .Site.Title}} ">
     <meta property="og:description" content='{{ .Site.Params.description }}'>
-    <link rel="stylesheet" href="/css/fonts.css">
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.PostCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
     {{ partial "site-favicon.html" . }}
