@@ -46,6 +46,17 @@
 #site-nav__toggle {
     display: block;
     margin-left: auto;
+    border: none;
+    background: none;
+    padding-top:7px;
+
+    &:hover, &:active {
+        cursor:pointer;
+    }
+
+    &:focus {
+        opacity:.8;
+    }
 
     @media screen and (min-width: $mq-large) {
         display:none;
@@ -140,9 +151,11 @@
         }
     }
 
-    &--flag {
+    &--flag, &__flag-img {
         width:18px;
     }
 }
+
+
 
 

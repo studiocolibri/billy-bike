@@ -330,6 +330,11 @@
         border-top:1px solid #e0e7ed;
         border-bottom:1px solid #e0e7ed;
     }
+
+    @media screen and (min-width:$mq-large) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .prix__subtitle {
@@ -337,17 +342,32 @@
     line-height: 1.5em;
     font-weight: 500;
     color:$text-color-dark;
+
+    @media screen and (min-width:$mq-large) {
+        grid-column: 1 / 2;
+    }
 }
 
 .prix__description {
     line-height: 2.2em;
     font-size:15px;
+
+    @media screen and (min-width:$mq-large) {
+        grid-column: 1 / 2;
+    }
 }
 
 .prix__price {
     font-size:30px;
     margin-top:$su*2;
     color:$text-color-dark;
+
+    @media screen and (min-width:$mq-large) {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        margin-top:0;
+        justify-self: center;
+    }
 }
 
 .prix__ask-pack {
@@ -359,5 +379,11 @@
         font-size: 14px;
         font-weight: 700;
         color:#66ccfb;
+    }
+
+    @media screen and (min-width:$mq-large) {
+        grid-column: 2 / 3;
+        margin-top:$su*2;
+        justify-self: center;
     }
 }
