@@ -84,8 +84,9 @@
         border-top:2px solid $light-blue;
         padding-top: $su;
         z-index:10;
-        transition:transform 200ms 50ms ease-out, height 200ms ease-out;
+        box-shadow: 0 2px 5px rgba(0,0,0,.1);
         transform:scaleY(1);
+        transition:transform 200ms 50ms ease-out, height 200ms ease-out;
     }
 
     @media screen and (min-width: $mq-large) {
