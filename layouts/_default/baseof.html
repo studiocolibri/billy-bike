@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode }}">
-  <!-- Testing branch -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   <!--    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
-    <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>-->
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <title>{{ .Site.Title}}</title>
     <meta name="description" content='{{ .Site.Params.description }}'>
     <meta property="og:type" content="website">
-	  <meta property="og:url" content="https://www.studiocolibri.be" />
-    <meta property="og:title" content="{{ .Site.Title}}">
+	  <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta property="og:title" content="{{ .Site.Title}} ">
     <meta property="og:description" content='{{ .Site.Params.description }}'>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="robots" content="index, follow">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,700i" rel="stylesheet"> 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&#038;subset=latin,latin-ext' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/fonts.css">
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.PostCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
     {{ partial "site-favicon.html" . }}
     {{- template "_internal/schema.html" . -}}
   </head>
-
   <body>
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main role="main">

@@ -1,7 +1,7 @@
 baseURL = "https://billy-bike.netlify.com/"
 languageCode = "fr-be"
 title = "Billy bike"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
     description = "Service de location de vélo à assistance électrique à Bruxelles"
-
