@@ -294,7 +294,10 @@
     @media screen and (min-width: $mq-large) {
         flex-direction: row;
         justify-content: center;
-        justify-content: space-evenly;
+        
+        @supports (justify-content: space-evenly) {
+            justify-content: space-evenly;
+        }
     }
 }
 
