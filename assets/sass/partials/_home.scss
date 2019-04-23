@@ -133,7 +133,7 @@
 
     @media screen and (min-width:$mq-large) {
         flex-direction:row;
-        max-width:$mw;
+        max-width:$mq-extra-large;
     }
 }
 
@@ -144,7 +144,7 @@
         
         &:first-of-type {
             margin-right:$su;
-            max-width:362px;
+            max-width:520px;
         }
     }
 }
@@ -247,7 +247,7 @@
 
     @media screen and (min-width:$mq-large) {
         flex-direction:row;
-        max-width:$mw;
+        max-width:$mq-extra-large;
     }
 }
 
@@ -269,7 +269,7 @@
 
 .zone__img-wrapper {
     display:block;
-    max-width:318px;
+    max-width:460px;
     width:100%;
     line-height:0;
     box-shadow: -40px 40px 120px -24px rgba(67,96,124,0.5);
