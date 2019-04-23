@@ -293,10 +293,14 @@
     @media screen and (min-width: $mq-large) {
         flex-direction: row;
         justify-content: center;
-        
-        @supports (justify-content: space-evenly) {
-            justify-content: space-evenly;
-        }
+    }
+}
+
+.zone-numbers__block {
+
+    @media screen and (min-width: $mq-large) {
+        width:25%;
+        max-width:460px;
     }
 }
 
