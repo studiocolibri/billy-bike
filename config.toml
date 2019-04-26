@@ -1,7 +1,46 @@
 baseURL = "https://billy-bike.netlify.com/"
-languageCode = "fr-be"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
 title = "Billy bike"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
-[params]
-    description = "Service de location de vélo à assistance électrique à Bruxelles"
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    weight = 1
+    [languages.fr.params]
+        hero = "Roulez en Billy"
+        description = "Des vélos électriques partagés que vous pouvez prendre et déposer n’importe où à Bruxelles. Pas de stations de recharge. Votre smartphone est la clé."
+        [languages.fr.params.navigation]
+            download = "Télécharger"
+            bike = "Le&nbsp;vélo"
+            how = "Comment&nbsp;?"
+            area = "Zone"
+            price = "Prix"
+            contact = "Contact"
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    [languages.en.params]
+        hero = "Ride with Billy"
+        description = "Shared electric bikes you can pick up and drop off anywhere in Brussels. No docking stations. Your smartphone is the key."
+        [languages.en.params.navigation]
+            download = "Download"
+            bike = "The&nbsp;bike"
+            how = "How&nbsp;?"
+            area = "Area"
+            price = "Price"
+            contact = "Contact"
+  [languages.nl]
+    languageName = "Nederlands"
+    weight = 3
+    [languages.nl.params]
+        hero = "Rij met Billy"
+        description = "Elektrische deelfietsen die je overal in Brussel kunt nemen en achterlaten. Geen oplaadpunten. Je smartphone is de sleutel."
+        [languages.nl.params.navigation]
+            download = "Downloaden"
+            bike = "De&nbsp;fiets"
+            how = "Hoe&nbsp;?"
+            area = "Zone"
+            price = "Prijs"
+            contact = "Contact"

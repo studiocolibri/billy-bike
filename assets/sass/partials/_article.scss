@@ -1,0 +1,23 @@
+.article {
+    margin:$su*6 auto $su*4 auto;
+
+    h2 {
+        margin-bottom:$su*2;
+
+        &:not(:first-of-type) {
+            margin-top:$su*2;
+        }
+    }
+
+    h3 {
+        padding: $su 0 $su/2 0;
+    }
+
+    h2 + h3 {
+        padding-top:0;
+    }
+}
+
+.article-header {
+    margin: 0 0 $su*2 0; 
+}
