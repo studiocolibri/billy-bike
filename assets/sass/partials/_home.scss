@@ -11,6 +11,7 @@
 
     .webp & {
         background: url('../images/hero-small.webp') center center no-repeat;
+        background-size:cover;
     }
 
     @media screen and (min-width:768px) {
@@ -19,6 +20,7 @@
 
         .webp & {
             background: url('../images/hero.webp') center center no-repeat;
+            background-size:cover;
         }
     }
 }

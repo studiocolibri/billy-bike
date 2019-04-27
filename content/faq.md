@@ -1,6 +1,6 @@
 ---
+layout: "secondary"
 title: "FAQ"
-url: /faq/
 ---
 
 ## What is Billy?

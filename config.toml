@@ -5,7 +5,7 @@ title = "Billy bike"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [permalinks]
-  secondary = "/:title/"
+  page = "/:title/"
 
 [languages]
   [languages.fr]

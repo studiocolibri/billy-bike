@@ -1,6 +1,6 @@
 ---
+layout: "secondary"
 title: "Privacy policy"
-url: /privacy-policy/
 ---
 
 Last Updated: April 12th, 2017

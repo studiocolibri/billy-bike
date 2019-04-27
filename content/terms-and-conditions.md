@@ -1,6 +1,6 @@
 ---
+layout: "secondary"
 title: "Terms and conditions"
-url: /terms-and-conditions/
 ---
 
 
