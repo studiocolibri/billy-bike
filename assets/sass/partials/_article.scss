@@ -2,7 +2,8 @@
     margin:$su*6 auto $su*4 auto;
 
     h2 {
-        margin-bottom:$su*2;
+        margin-bottom:$su;
+        padding-bottom:0;
 
         &:not(:first-of-type) {
             margin-top:$su*2;
@@ -15,6 +16,14 @@
 
     h2 + h3 {
         padding-top:0;
+    }
+
+    p, ul, ol {
+        margin-bottom:$su;
+    }
+
+    ul, ol {
+        margin-left:1.1em;
     }
 }
 

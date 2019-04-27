@@ -1,5 +1,6 @@
 ---
 title: "FAQ"
+type: secondary
 url: /faq/
 ---
 
@@ -178,4 +179,6 @@ Make it look like the bike is correctly secured and call us as soon as you can o
 
 A: Restarting the app helps most of the time, if not, wait for a minute or two and try again. If it still doesn’t work, call team Billy to the rescue on +32-2-588-03-30
 
-**Any other question we didn’t answer here**: drop us a lien at team@billy.bike or call us on +32-2-588-03-30
+<br>
+
+**Any other question we didn’t answer here**: drop us a lien at <a href="mailto:team@billy.bike">team@billy.bike</a> or call us on +32-2-588-03-30
