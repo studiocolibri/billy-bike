@@ -10,6 +10,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [languages]
   [languages.fr]
     languageName = "Français"
+    contentDir = "content/fr"
     weight = 1
     [languages.fr.params]
         hero = "Roulez en Billy"
@@ -23,6 +24,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
             contact = "Contact"
   [languages.en]
     languageName = "English"
+    contentDir = "content/en"
     weight = 2
     [languages.en.params]
         hero = "Ride with Billy"
@@ -36,6 +38,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
             contact = "Contact"
   [languages.nl]
     languageName = "Nederlands"
+    contentDir = "content/nl"
     weight = 3
     [languages.nl.params]
         hero = "Rij met Billy"

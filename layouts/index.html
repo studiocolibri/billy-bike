@@ -70,10 +70,9 @@
   <section id="le-velo" class="home-section">
     <div class="block-lw le-velo__blocks">
       <div class="le-velo__block">
-        <h1 class="home-section__title">Le vélo</h1>
-        <p>Les vélos Billy ont été conçus pour offrir un confort optimal dans les rues de Bruxelles. Sa selle large, ses grosses roues et sa suspension avant permettent de dompter les pavés et les rails de tram. Avec son grand panier vous pourrez transporter jusqu’à 20 kilos sans affecter la direction et sa stabilité. Et grâce à son assistance électrique jusqu’à 25 km/h, vous ne sentirez pas les côtes Bruxelloises.
-        </p>
-        <p class="le-velo__how"><a class="button" href="/#comment">Comment ça marche?</a></p>
+        <h1 class="home-section__title">{{ .Params.bike_title }}</h1>
+        <p>{{ .Params.bike_description }}</p>
+        <p class="le-velo__how"><a class="button" href="/#comment">{{ .Params.bike_how }}</a></p>
       </div>
       <div class="le-velo__block">
         <picture class="le-velo__img-wrapper">
@@ -81,7 +80,7 @@
           <source srcset="{{.Site.BaseURL}}images/bike.jpg" type="image/jpeg"> 
           <img class="le-velo__img" src="{{.Site.BaseURL}}images/bike.jpg" width="454" height="454" alt="Illustration du vélo">
         </picture>
-      </div>
+      </div>  
     </div>
   </section>
   <section id="comment" class="home-section block-mw">
