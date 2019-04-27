@@ -4,6 +4,9 @@ DefaultContentLanguage = "fr"
 title = "Billy bike"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+[permalinks]
+  secondary = "/:title/"
+
 [languages]
   [languages.fr]
     languageName = "Français"

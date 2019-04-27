@@ -3,11 +3,17 @@
 */
 
 #section-intro {
-    background: url('../images/hero.jpg') center center no-repeat;
+    background: url('../images/hero-small.jpg') center center no-repeat;
+    background: url('../images/hero-small.webp') center center no-repeat;
     background-size:cover;
     padding-top:60px;
     margin-top:63px;
     height:85vh;
+
+    @media screen and (min-width:768px) {
+        background: url('../images/hero.jpg') center center no-repeat;
+        background: url('../images/hero.webp') center center no-repeat;
+    }
 }
 .site-title {
     text-transform: uppercase;

@@ -1,6 +1,5 @@
 ---
 title: "FAQ"
-type: secondary
 url: /faq/
 ---
 

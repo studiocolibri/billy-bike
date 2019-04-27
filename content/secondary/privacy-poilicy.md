@@ -1,6 +1,5 @@
 ---
 title: "Privacy policy"
-type: secondary
 url: /privacy-policy/
 ---
 

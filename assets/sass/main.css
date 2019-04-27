@@ -141,6 +141,7 @@ a {
 */
 #section-intro {
   background: url("../images/hero.jpg") center center no-repeat;
+  background: url("../images/hero.webp") center center no-repeat;
   background-size: cover;
   padding-top: 60px;
   margin-top: 63px;

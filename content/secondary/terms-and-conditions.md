@@ -1,7 +1,6 @@
 ---
 title: "Terms and conditions"
-type: secondary
-url: /terms-and-conditions//
+url: /terms-and-conditions/
 ---
 
 
