@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
     {{ partial "site-favicon.html" . }}
   </head>
-  <body>
+  <body id="top">
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main>
       {{ block "main" . }}{{ end }}
