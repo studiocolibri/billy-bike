@@ -329,6 +329,10 @@
     flex-direction: column;
     justify-content: space-between;
 
+    .webp & {
+        background-image: linear-gradient(180deg,rgba(33,122,206,0.7) 0%,rgba(102,204,251,0.63) 100%),url(../images/alex.webp);
+    }
+
     @media screen and (min-width: $mq-large) {
         flex-direction: row;
         justify-content: center;

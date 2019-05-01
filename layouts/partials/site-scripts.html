@@ -3,6 +3,9 @@
 {{ $globalJS := $defaultJS | resources.Minify | resources.Fingerprint }}
 <!--<script src="{{ $globalJS.Permalink }}"></script>-->
 <script>
+    // detect webp support for hero bg img
+    function supportsWebp(){if(!self.createImageBitmap)return!1;const e=fetch("data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=").then(e=>e.blob());return createImageBitmap(e).then(()=>!0,()=>!1)}(function(){supportsWebp()&&document.body.classList.add("webp")})()
+
     // site-navigation on mobile - burger menu
     var menuToggle=document.querySelector("#site-nav__toggle"),siteHeader=document.querySelector("#site-header"),menuLinks=document.querySelectorAll(".site-nav__link");function closeMenu(){menuToggle.setAttribute("aria-expanded","false"),siteHeader.classList.remove("is-active")}menuToggle.addEventListener("click",function(){siteHeader.classList.contains("is-active")?closeMenu():(siteHeader.classList.add("is-active"),this.setAttribute("aria-expanded","true"))}),menuLinks.forEach(function(e){e.addEventListener("click",closeMenu)});
     
@@ -11,8 +14,5 @@
     return!1=='requestAnimationFrame' in window?(window.scroll(0,l),void(e&&e())):void b()}
     function getAnchor(link){return(link.split('#').length>1)?link.split('#')[1]:null}
     let siteNavLinks=document.querySelectorAll('a.site-nav__link--anchor');siteNavLinks.forEach(function(link){let linkSrc=link.href;let linkAnchor=getAnchor(linkSrc);let linkDest=document.getElementById(linkAnchor);link.addEventListener('click',function(e){e.preventDefault();scrollIt(linkDest,800,'easeOutQuad')})})
-
-    // detect webp support for hero bg img
-    async function supportsWebp(){if(!self.createImageBitmap)return!1;const e=await fetch("data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=").then(e=>e.blob());return createImageBitmap(e).then(()=>!0,()=>!1)}(async()=>{await supportsWebp()&&document.body.classList.add("webp")})();
 </script>
 
