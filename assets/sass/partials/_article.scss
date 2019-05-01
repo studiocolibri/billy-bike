@@ -1,6 +1,10 @@
 .article {
     margin:$su*6 auto $su*4 auto;
 
+    h1, h2, h3 {
+        font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    }
+
     h2 {
         margin-bottom:$su;
         padding-bottom:0;

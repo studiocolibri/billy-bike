@@ -9,6 +9,10 @@
     margin-top:63px;
     height:85vh;
 
+    .block-mw {
+        padding:0;
+    }
+
     .webp & {
         background: url('../images/hero-small.webp') center center no-repeat;
         background-size:cover;
@@ -23,15 +27,27 @@
             background-size:cover;
         }
     }
+
+    @media screen and (min-width:$mq-large) {
+        margin-top:77px;
+    }
 }
 .site-title {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 28px;
     line-height: 1.5em;
     text-align: center;
     margin:0;
     padding-bottom:$su/2;
+
+    @media screen and (min-width:400px) {
+        font-size:37px;
+    }
+
+    @media screen and (min-width:768px) {
+        font-size:50px;
+    }
 }
 
 .site-description {
@@ -158,10 +174,15 @@
 .le-velo__block {
     flex:1;
 
+    &:first-of-type {
+        margin-bottom:$su*2;
+    }
+
     @media screen and (min-width:$mq-large) {
         
         &:first-of-type {
             margin-right:$su;
+            margin-bottom:0;
             max-width:520px;
         }
     }

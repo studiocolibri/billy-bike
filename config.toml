@@ -13,8 +13,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     contentDir = "content/fr"
     weight = 1
     [languages.fr.params]
-        hero = "Roulez en Billy"
-        description = "Des vélos électriques partagés que vous pouvez prendre et déposer n’importe où à Bruxelles. Pas de stations de recharge. Votre smartphone est la clé."
+        flag = '<svg xmlns="http://www.w3.org/2000/svg" class="site-nav__link__flag-img" viewBox="0 0 3 2"><rect width="3" height="2" fill="#ED2939"/><rect width="2" height="2" fill="#fff"/><rect width="1" height="2" fill="#002395"/></svg>'
         [languages.fr.params.navigation]
             download = "Télécharger"
             bike = "Le&nbsp;vélo"
@@ -27,8 +26,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     contentDir = "content/en"
     weight = 2
     [languages.en.params]
-        hero = "Ride with Billy"
-        description = "Shared electric bikes you can pick up and drop off anywhere in Brussels. No docking stations. Your smartphone is the key."
+        flag = '<svg xmlns="http://www.w3.org/2000/svg" class="site-nav__link__flag-img" viewBox="0 0 640 480"><defs><clipPath><path fill-opacity=".7" d="M-85.3 0h682.6v512H-85.3z"/></clipPath></defs><g clip-path="url(#a)" transform="translate(80) scale(.94)"><g stroke-width="1pt"><path fill="#012169" d="M-256 0H768v512H-256z"/><path fill="#fff" d="M-256 0v57.2L653.5 512H768v-57.2L-141.5 0H-256zM768 0v57.2L-141.5 512H-256v-57.2L653.5 0H768z"/><path fill="#fff" d="M170.7 0v512h170.6V0H170.7zM-256 170.7v170.6H768V170.7H-256z"/><path fill="#c8102e" d="M-256 204.8v102.4H768V204.8H-256zM204.8 0v512h102.4V0H204.8zM-256 512L85.3 341.3h76.4L-179.7 512H-256zm0-512L85.3 170.7H9L-256 38.2V0zm606.4 170.7L691.7 0H768L426.7 170.7h-76.3zM768 512L426.7 341.3H503l265 132.5V512z"/></g></g></svg>'
         [languages.en.params.navigation]
             download = "Download"
             bike = "The&nbsp;bike"
@@ -41,8 +39,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     contentDir = "content/nl"
     weight = 3
     [languages.nl.params]
-        hero = "Rij met Billy"
-        description = "Elektrische deelfietsen die je overal in Brussel kunt nemen en achterlaten. Geen oplaadpunten. Je smartphone is de sleutel."
+        flag = '<svg xmlns="http://www.w3.org/2000/svg" class="site-nav__link__flag-img" viewBox="0 0 640 480"><g fill-rule="evenodd" stroke-width="1pt" transform="scale(1.25 .9375)"><rect width="512" height="509.8" fill="#fff" rx="0" ry="0"/><rect width="512" height="169.9" y="342.1" fill="#21468b" rx="0" ry="0"/><path fill="#ae1c28" d="M0 0h512v170H0z"/></g></svg>'
         [languages.nl.params.navigation]
             download = "Downloaden"
             bike = "De&nbsp;fiets"
