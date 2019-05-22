@@ -26,9 +26,31 @@ time, mark, audio, video {
 /*
 * BASE
 */
-html {
-  scroll-behavior: smooth; }
-
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensans-semibold-webfont.woff2") format("woff2"), url("/fonts/opensans-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensans-regular-webfont.woff2") format("woff2"), url("/fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensans-bold-webfont.woff2") format("woff2"), url("/fonts/opensans-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/fonts/montserrat-medium-webfont.woff2") format("woff2"), url("/fonts/montserrat-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback; }
 html, body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
@@ -136,30 +158,66 @@ a {
   position: relative;
   transition: 130ms color ease-out; }
 
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+img {
+  height: auto; }
+
 /*
 * HOMEPAGE
 */
-#section-intro {
-  background: url("../images/hero.jpg") center center no-repeat;
-  background: url("../images/hero.webp") center center no-repeat;
+#download {
+  background: url("../images/hero-small.jpg") center center no-repeat;
   background-size: cover;
   padding-top: 60px;
   margin-top: 63px;
   height: 85vh; }
+  #download .block-mw {
+    padding: 0; }
+  .webp #download {
+    background: url("../images/hero-small.webp") center center no-repeat;
+    background-size: cover; }
+  @media screen and (min-width: 768px) {
+    #download {
+      background: url("../images/hero.jpg") center center no-repeat;
+      background-size: cover; }
+      .webp #download {
+        background: url("../images/hero.webp") center center no-repeat;
+        background-size: cover; } }
+  @media screen and (min-width: 980px) {
+    #download {
+      margin-top: 77px; } }
 
 .site-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 28px;
   line-height: 1.5em;
   text-align: center;
   margin: 0;
   padding-bottom: 10px; }
+  @media screen and (min-width: 400px) {
+    .site-title {
+      font-size: 37px; } }
+  @media screen and (min-width: 768px) {
+    .site-title {
+      font-size: 50px; } }
 
 .site-description {
   line-height: 1.3em;
   font-size: 20px;
-  font-weight: 500px; }
+  font-weight: 500;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .site-title, .site-description {
   color: white;
@@ -215,6 +273,7 @@ a {
       display: block; } }
 
 .press__list {
+  max-width: 1130px;
   display: flex;
   justify-content: space-between;
   width: 100%; }
@@ -244,14 +303,17 @@ a {
   @media screen and (min-width: 980px) {
     .le-velo__blocks {
       flex-direction: row;
-      max-width: 1080px; } }
+      max-width: 1280px; } }
 
 .le-velo__block {
   flex: 1; }
+  .le-velo__block:first-of-type {
+    margin-bottom: 40px; }
   @media screen and (min-width: 980px) {
     .le-velo__block:first-of-type {
       margin-right: 20px;
-      max-width: 362px; } }
+      margin-bottom: 0;
+      max-width: 520px; } }
 
 .le-velo__how {
   margin-top: 40px; }
@@ -261,6 +323,9 @@ a {
   @media screen and (min-width: 980px) {
     .le-velo__img {
       width: 90%; } }
+
+#comment {
+  max-width: 1280px; }
 
 .comment__title {
   margin-bottom: 40px;
@@ -327,7 +392,7 @@ a {
   @media screen and (min-width: 980px) {
     .zone__blocks {
       flex-direction: row;
-      max-width: 1080px; } }
+      max-width: 1280px; } }
 
 .zone__block {
   flex: 1; }
@@ -341,8 +406,8 @@ a {
 
 .zone__img-wrapper {
   display: block;
-  max-width: 318px;
-  width: 100%;
+  max-width: 460px;
+  width: 90%;
   line-height: 0;
   box-shadow: -40px 40px 120px -24px rgba(67, 96, 124, 0.5); }
 
@@ -353,17 +418,24 @@ a {
   background-image: linear-gradient(180deg, rgba(33, 122, 206, 0.7) 0%, rgba(102, 204, 251, 0.63) 100%), url(../images/alex.jpg);
   background-position: center;
   background-size: cover;
-  margin-top: 80px;
+  margin-top: 120px;
   color: white;
   padding: 40px 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between; }
+  .webp .zone-numbers {
+    background-image: linear-gradient(180deg, rgba(33, 122, 206, 0.7) 0%, rgba(102, 204, 251, 0.63) 100%), url(../images/alex.webp); }
   @media screen and (min-width: 980px) {
     .zone-numbers {
       flex-direction: row;
       justify-content: center; } }
+
+@media screen and (min-width: 980px) {
+  .zone-numbers__block {
+    width: 25%;
+    max-width: 460px; } }
 
 #zone .zone-numbers__block__num {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
@@ -431,7 +503,7 @@ a {
 .prix__ask-pack {
   margin-top: 40px; }
   .prix__ask-pack a {
-    font-family: "Open Sans",Arial,sans-serif;
+    font-family: "open sans", Arial, sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
@@ -442,12 +514,53 @@ a {
       margin-top: 40px;
       justify-self: center; } }
 
+#contact {
+  padding-top: 0; }
+
+.contact-form {
+  background: #66ccfb;
+  color: white;
+  padding: 30px; }
+
+.contact__title {
+  font-size: 22px;
+  text-align: center; }
+
+#contact-form__email {
+  width: 100%;
+  padding: 14px 4%;
+  border-width: 0;
+  border-radius: 3px;
+  color: #666;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 20px auto; }
+
+.contact-form__submit {
+  width: 100%;
+  padding: .3em 1em;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  border: 2px solid;
+  border-radius: 3px;
+  background: none;
+  line-height: 1.7em;
+  transition: border-color 200ms ease-out, background-color 200ms ease-out; }
+  .contact-form__submit:hover, .contact-form__submit:active, .contact-form__submit:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: transparent;
+    cursor: pointer; }
+
 /*
 * HEADER
 */
 #site-header {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
+  z-index: 10;
   top: 0;
   width: 100%;
   background: white; }
@@ -520,8 +633,9 @@ a {
     border-top: 2px solid #66ccfb;
     padding-top: 20px;
     z-index: 10;
-    transition: transform 200ms 50ms ease-out, height 200ms ease-out;
-    transform: scaleY(1); }
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: scaleY(1);
+    transition: transform 200ms 50ms ease-out, height 200ms ease-out; }
   @media screen and (min-width: 980px) {
     .is-active #site-nav__list, #site-nav__list {
       flex-direction: row;
@@ -554,9 +668,10 @@ a {
   width: 100%;
   display: block;
   font-size: 14px;
-  padding: 15px 5%;
+  padding: 15px 8px;
   letter-spacing: 1px;
   color: #2ea3f2;
+  background-color: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.03);
   transition: background-color 200ms ease-out, opacity 200ms ease-out; }
   .site-nav__link:hover {
@@ -577,8 +692,8 @@ a {
 * FOOTER
 */
 .site-footer {
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   background-color: #66ccfb;
   color: white;
   text-align: center;
@@ -622,3 +737,24 @@ a {
 .site-footer__copy {
   margin-top: 40px;
   font-size: 14px; }
+
+.article {
+  margin: 120px auto 80px auto; }
+  .article h1, .article h2, .article h3 {
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif; }
+  .article h2 {
+    margin-bottom: 20px;
+    padding-bottom: 0; }
+    .article h2:not(:first-of-type) {
+      margin-top: 40px; }
+  .article h3 {
+    padding: 20px 0 10px 0; }
+  .article h2 + h3 {
+    padding-top: 0; }
+  .article p, .article ul, .article ol {
+    margin-bottom: 20px; }
+  .article ul, .article ol {
+    margin-left: 1.1em; }
+
+.article-header {
+  margin: 0 0 40px 0; }
