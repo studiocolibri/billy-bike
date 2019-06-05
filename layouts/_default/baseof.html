@@ -10,7 +10,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Site.Title}}</title>
+    <title>{{ .Site.Title}} - {{ .Params.hero_title }} !</title>
     <meta name="description" content='{{ .Site.Params.description }}'>
     <link rel="alternate" hreflang="fr" href="{{.Site.BaseURL}}" />
     <link rel="alternate" hreflang="nl" href="{{.Site.BaseURL}}nl" />
@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta property="og:type" content="website">
 	  <meta property="og:url" content="{{ .Site.BaseURL }}" />
     <meta property="og:title" content="{{ .Site.Title}} ">
-    <meta property="og:description" content='{{ .Site.Params.description }}'>
+    <meta property="og:description" content='{{.Params.hero_description}}'>
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.PostCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
     {{ partial "site-favicon.html" . }}
