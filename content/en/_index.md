@@ -19,7 +19,7 @@ area_title: The area
 area_txt: Billy is currently available in the municipalities of Brussels, Etterbeek, Ixelles and Saint Gilles. In the following months more bikes will be added, which will greatly increase the covered area.
 numbers01: bicycles
 numbers02: communes
-numbers03: year in Brussels
+numbers03: years in Brussels
 prices_title: Our prices
 prices_min_title: Price per minute
 prices_min_txt: At the end of the month all used riding minutes will be charged automatically.

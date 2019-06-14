@@ -25,7 +25,7 @@ area_title: La zone
 area_txt: Billy est aujourd’hui présent sur les communes de Bruxelles, Etterbeek, Ixelles et Saint Gilles. Dans les mois qui suivent plus de vélos seront ajoutés, ce qui permettra de fortement augmenter la zone couverte.
 numbers01: vélos
 numbers02: communes
-numbers03: an d'opérations à Bruxelles
+numbers03: ans d'opérations à Bruxelles
 prices_title: Nos tarifs
 prices_min_title: Prix à la minute
 prices_min_txt: Á la fin du mois le total de vos utilisations vous sera débité.

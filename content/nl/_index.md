@@ -19,7 +19,7 @@ area_title: De zone
 area_txt: Billy is vandaag aanwezig in de gemeenten Brussel, Etterbeek, Elsene en Sint-Gillis. In de komende maanden zullen er meer fietsen worden toegevoegd, waardoor de zone aanzienlijk zal toenemen.
 numbers01: fietsen
 numbers02: gemeentens
-numbers03: jaar in Brussel
+numbers03: jaren in Brussel
 prices_title: Onze tarieven
 prices_min_title: Prijs per minuut
 prices_min_txt: Aan het einde van de maand wordt het totaal van uw gebruik automatisch in rekening gebracht.
