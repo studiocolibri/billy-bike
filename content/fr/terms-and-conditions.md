@@ -3,8 +3,6 @@ layout: secondary
 title: Terms and conditions
 
 ---
-# **TERMS AND CONDITIONS**
-
 BILLY provides to its users access to self-service hire electric bicycles (the “BILLY Service”). The BILLY Service is an electric mobility service proposed by Billy SA, a Belgian company registered at the CBE with number BE0674.377.256 whose registered office is located at Rue Guillaume Tell 59b, 1060 Sint Gillis, Belgium (“BILLY”).
 
 Contact details:
