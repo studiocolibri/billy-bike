@@ -25,3 +25,9 @@ command = "hugo"
   
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.54.0"
+  
+[[redirects]]
+  from = "https://billy-bike.netlify.com/*"
+  to = "https://www.billy.bike/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
