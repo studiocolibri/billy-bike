@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://billy-bike.netlify.com/* https://www.billy.bike/:splat 301!
