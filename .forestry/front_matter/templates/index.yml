@@ -65,6 +65,11 @@ fields:
 - type: text
   name: numbers03
   label: numbers03
+- name: map
+  type: file
+  config:
+    maxSize: '1'
+  label: map
 - type: text
   name: prices_title
   label: prices_title
