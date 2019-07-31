@@ -127,11 +127,12 @@
   <section id="zone" class="home-section">
     <div class="zone__blocks block-mw">
       <div class="zone__block">
-        <picture class="zone__img-wrapper">
+		  <iframe class="zone__img-wrapper" src="https://www.google.com/maps/d/embed?mid=13LyDbgfbzg55n_BnDhiCF1jAnTLA9T-Z&z=12" width="445" height="445"></iframe>
+       <!-- <picture class="zone__img-wrapper">
           <source srcset="{{.Site.BaseURL}}images/map2.webp" type="image/webp">
           <source srcset="{{.Site.BaseURL}}images/map2.jpg" type="image/jpeg"> 
           <img class="zone__img" src="{{.Site.BaseURL}}images/map2.jpg" width="339" height="339" alt="{{ .Params.area_alt_map }}">
-        </picture>
+        </picture>-->
       </div>
       <div class="zone__block">
         <h1 class="home-section__title">{{ .Params.area_title }}</h1>
@@ -140,11 +141,11 @@
     </div>
     <div class="zone-numbers">
       <div class="zone-numbers__block">
-        <p class="zone-numbers__block__num">150</p>
+        <p class="zone-numbers__block__num">600</p>
         <p class="zone-numbers__block__txt">{{ .Params.numbers01 }}</p>
       </div>
       <div class="zone-numbers__block">
-        <p class="zone-numbers__block__num">4</p>
+        <p class="zone-numbers__block__num">14</p>
         <p class="zone-numbers__block__txt">{{ .Params.numbers02 }}</p>
       </div>
       <div class="zone-numbers__block">
