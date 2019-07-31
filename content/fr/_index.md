@@ -22,7 +22,7 @@ how_block04_title: 4. Stationner
 how_block04_txt: Attachez toujours votre vélo à un poteau ou arceau avec sa chaîne.
 area_alt_map: Carte de la zone
 area_title: La zone
-area_txt: Billy est aujourd’hui présent sur les communes de Bruxelles, Etterbeek, Ixelles et Saint Gilles. Dans les mois qui suivent plus de vélos seront ajoutés, ce qui permettra de fortement augmenter la zone couverte.
+area_txt: Billy est aujourd’hui présent sur les communes de Bruxelles-Ville, Laeken, Schaerbeek, Etterbeek, Ixelles, Saint-Gilles, Molenbeek-Saint-Jean, Watermael-Boisfort, Auderghem, Woluwé-Saint-Pierre, Woluwé-Saint-Lambert, Forest, Saint-Josse-Ten-Noode et Uccle. Dans les mois qui suivent, de nouveaux vélosseront ajoutés à la flotte, ce qui permettra d’encore augmenter la zone couverte.
 numbers01: vélos
 numbers02: communes
 numbers03: ans d'opérations à Bruxelles
