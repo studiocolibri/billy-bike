@@ -1,6 +1,6 @@
 ---
 layout: home
-hero_title: Roulez en Billy
+hero_title: Vélos électriques partagés à Bruxelles
 hero_description: Des vélos électriques partagés que vous pouvez prendre et déposer n’importe où à Bruxelles. Pas de stations de recharge. Votre smartphone est la clé.
 bike_title: Le vélo
 bike_description: >-
