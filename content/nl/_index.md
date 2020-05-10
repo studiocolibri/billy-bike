@@ -32,7 +32,7 @@ prices_min_title: Prijs per minuut
 prices_min_txt: Aan het einde van de maand wordt het totaal van uw gebruik automatisch
   in rekening gebracht.
 prices_pack_txt: Neem een ​​minutenpakket om goedkoper te rijden&nbsp;  !
-prices_pack_ask: Vraag dit pakket aan
+prices_pack_ask: ''
 newsletter_txt: Schrijf je in op de Billy-nieuwsbrief om de laatste updates te ontvangen&nbsp;!
 newsletter_submit: Schrijf je in&nbsp;!
 follow_us: Volg ons
