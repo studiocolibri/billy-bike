@@ -1,23 +1,25 @@
 ---
-layout: "secondary"
-title: "Privacy policy"
----
+layout: secondary
+title: Privacy policy
 
-Last Updated: April 12th, 2017
+---
+# **Privacy policy**
+
+Last Updated: May 10th, 2020
 
 BILLY is an electric mobility service proposed by Billy SPRL, a Belgian company registered with the CBE under number BE 0674377256 whose registered office is located at Rue Guillaume Tell 59B, 1060 Sint-Gillis, Belgium (“We”, “BILLY”).
 
-We have created a network for sharing electric bicycles through a mobile application (“App”) that enables users to locate, rent, and operate electric bicycles (“Billy”) from the available locations (“Billy Service”). The Billy Service is designed to offer its users (“Users” or “You”) a means of transportation with electric bicycles via a short-term self-service rental model. We maintain a corporate Web site at [https://billy.bike](https://medium.com/r/?url=https%3A%2F%2Fbilly.bike) (“Site”) as well as all related applications, widgets, software, tools and other services provided by us and on which a link to this policy is displayed.
+We have created a network for sharing electric bicycles through a mobile application (“App”) that enables users to locate, rent, and operate electric bicycles (“Billy”) from the available locations (“Billy Service”). The Billy Service is designed to offer its users (“Users” or “You”) a means of transportation with electric bicycles via a short-term self-service rental model. We maintain a corporate Web site at [https://billy.bike](https://billy.bike "https://billy.bike") (“Site”) as well as all related applications, widgets, software, tools and other services provided by us and on which a link to this policy is displayed.
 
-This Privacy Policy and any additional terms incorporated by reference herein (hereinafter referred to as the “Policy”) govern, after their acceptance by the User, our collection, storage and use of Personal Information, as defined below, from Users who have registered for the services provided by BILLY — namely the Billy Service, Site, the App, and any access through Third Party Sites (collectively the “Services”) — and visitors, whether User or not, to the Site or the App, (“Visitors”) (together, “You”, “Your” or “Users”).
+This Privacy Policy and any additional terms incorporated by reference herein (hereinafter referred to as the “Policy”) govern, after their acceptance by the User, our collection, storage and use of Personal Information, as defined below, from Users who have registered for the services provided by BILLY — namely the Billy Service, Site, the App, and any access through Third Party Sites (collectively the “Services”) — and visitors, whether User or not, to the Site or the App, (“Visitors”) (together, “You”, “Your” or “Users”).
 
-We take Your privacy seriously and make it a priority to protect personally identifiable information that we obtain from and about You both online and off-line. If You have questions about our Policy, please send an email to info@billy.bike.
+We take Your privacy seriously and make it a priority to protect personally identifiable information that we obtain from and about You both online and off-line. If You have questions about our Policy, please send an email to team@billy.bike.
 
-All access and use of the Billy Service implies respect for the Policy by the User. The Services, including but not limited to the access and use of the Billy Service, are provided only on the condition that the Users agree to the present Policy as well as the Terms located at [https://billy.bike/terms-and-conditions/.](https://medium.com/r/?url=https%3A%2F%2Fbilly.bike%2Fterms-and-conditions%2F.)
+All access and use of the Billy Service implies respect for the Policy by the User. The Services, including but not limited to the access and use of the Billy Service, are provided only on the condition that the Users agree to the present Policy as well as the Terms located at [https://billy.bike/terms-and-conditions/.](https://billy.bike/terms-and-conditions/. "https://billy.bike/terms-and-conditions/.")
 
 Your use of the Services and any Personal Information You provide via the Services are subject to the terms of this Policy and BILLY’ Terms. By accepting this Policy upon Registration, a User acknowledges that he or she has read, understood, and agreed to be bound by this Policy. If You do not want information about You to be used in the manner set forth in this Policy, please do not use the Services.
 
-If you have any questions regarding this Policy or the Services, please contact BILLY via email at info@billy.bike or by telephone at +32 2 588 03 30.
+If you have any questions regarding this Policy or the Services, please contact BILLY via email at team@billy.bike or by telephone at +32 2 588 03 30.
 
 PERSONAL INFORMATION
 
@@ -35,7 +37,7 @@ User Provided Information. When You register and set up an account (“User Acco
 
 Payment Information. If You purchase services or products from the Services, we will collect the billing and financial information necessary to process Your charges, which may include Your postal and email addresses. We may also receive the billing and payment information that You provide when Your purchase is processed by another party.
 
-Invitation Service. BILLY may offer an invitation service to tell a friend about the Services. If You choose to use our invitation service to tell a friend about the Services, we may ask You for information needed to send the invitation, such as Your friend’s email address or phone number. We may also offer You the opportunity to invite Your friend via third party services such as Facebook, Instagram or Twitter. We will automatically send Your friend a one-time email or text message inviting him or her to try the Service. By providing email addresses or phone numbers of non-Users, You represent that You have the right to do so and that such information may also be provided to the third party service that You have designated to contact the non-User. We store and use this information to send this invitation, to register a friend if Your invitation is accepted, and to track the success of our invitation service. Your friend may contact us at info@billy.bike to request that we remove this information from our database.
+Invitation Service. BILLY may offer an invitation service to tell a friend about the Services. If You choose to use our invitation service to tell a friend about the Services, we may ask You for information needed to send the invitation, such as Your friend’s email address or phone number. We may also offer You the opportunity to invite Your friend via third party services such as Facebook, Instagram or Twitter. We will automatically send Your friend a one-time email or text message inviting him or her to try the Service. By providing email addresses or phone numbers of non-Users, You represent that You have the right to do so and that such information may also be provided to the third party service that You have designated to contact the non-User. We store and use this information to send this invitation, to register a friend if Your invitation is accepted, and to track the success of our invitation service. Your friend may contact us at team@billy.bike to request that we remove this information from our database.
 
 Passively Collected Information
 
@@ -45,7 +47,7 @@ Automatically Collected Information. When You use the Services, some information
 
 Location Information. BILLY may offer features designed to help You use the Services, such as to locate Billys available through the network, including in whole or in part based on Your location. You will be given the opportunity to opt-in to location-based services, normally through an opt-in screen on the App. If You choose to enable location-based services, we may collect Your location based on information provided by You or Your mobile device, including, if available, GPS, IP address or cell tower information. If You, as a User, do not opt-in to location-based services, You may not have access to the features necessary to use the Services.
 
-We use analytics tools to track how You get to our Site and to understand how You use the Site after You arrive. Although this allows us to see and analyze Your movements around the Site, our systems do not provide a way for that information to be tied to any Personal Information You choose to give us.
+We use analytics tools to track how You get to our Site and to understand how You use the Site after You arrive.
 
 Information from Other Sources
 
@@ -93,9 +95,9 @@ If BILLY learns of a security systems breach, then we may attempt to notify You 
 
 CHOICES YOU HAVE REGARDING THE USE OF YOUR PERSONAL INFORMATION:
 
-You may, of course, decline to share Your Personal Information with BILLY, in which case BILLY will not be able to provide to You some of the features and functionality found in the Services. If You register as a User of BILLY, You may update, correct, or delete Your profile information and preferences at any time by emailing us at info@billy.bike.
+You may, of course, decline to share Your Personal Information with BILLY, in which case BILLY will not be able to provide to You some of the features and functionality found in the Services. If You register as a User of BILLY, You may update, correct, or delete Your profile information and preferences at any time by emailing us at team@billy.bike.
 
-You may “opt out” of receiving promotional and marketing materials by emailing us at info@billy.bike. However, this shall not affect our ability to send You service and account related emails and to use Your Personal Information as otherwise described in this Privacy Policy. Please be aware that if You “opt out” of receiving commercial email from us, it may take up to ten business days for us to process Your “opt out” and You may receive commercial email from us during that period.
+You may “opt out” of receiving promotional and marketing materials by emailing us at team@billy.bike. However, this shall not affect our ability to send You service and account related emails and to use Your Personal Information as otherwise described in this Privacy Policy. Please be aware that if You “opt out” of receiving commercial email from us, it may take up to ten business days for us to process Your “opt out” and You may receive commercial email from us during that period.
 
 To protect Your privacy and security, we take reasonable steps to verify Your identity before granting You account access or making corrections to Your information but You are solely responsible for maintaining the secrecy of Your unique password and account information at all times.
 
@@ -111,7 +113,7 @@ By using any Third Party Site to log in to our Services, or otherwise connecting
 
 OUR COMMITMENT TO CHILDREN’S PRIVACY:
 
-Protecting the privacy of young children is especially important. For that reason, our Services are not directed to persons under 16 years-of-age and BILLY does not knowingly collect or maintain Personal Information from persons under 16 years-of-age, including children under the age of 13\. If BILLY learns that Personal Information of persons under 13 years-of-age has been collected in the Services without verifiable parental consent, then BILLY will take the appropriate steps to delete this information. If You are a parent or guardian and discover that Your child under the age of 13 has obtained a Billy Brussel’ User Account, then You may alert BILLY at info@billy.bike and request that BILLY delete that child’s Personal Information from its systems.
+Protecting the privacy of young children is especially important. For that reason, our Services are not directed to persons under 16 years-of-age and BILLY does not knowingly collect or maintain Personal Information from persons under 16 years-of-age, including children under the age of 13. If BILLY learns that Personal Information of persons under 13 years-of-age has been collected in the Services without verifiable parental consent, then BILLY will take the appropriate steps to delete this information. If You are a parent or guardian and discover that Your child under the age of 13 has obtained a Billy Brussel’ User Account, then You may alert BILLY at team@billy.bike and request that BILLY delete that child’s Personal Information from its systems.
 
 INTERNATIONAL VISITORS
 
@@ -123,6 +125,6 @@ This Policy may be revised periodically and this will be reflected by a “Last 
 
 Billy CONTACT INFORMATION:
 
-Please contact BILLY with any questions or comments about this Policy, Your Personal Information, our third-party disclosure practices, or Your consent choices by email at <a href="mailto:info@billy.bike">info@billy.bike</a> or by mail at:
+Please contact BILLY with any questions or comments about this Policy, Your Personal Information, our third-party disclosure practices, or Your consent choices by email at team@billy.bike or by mail at:
 
 Billy SPRL, Rue Guillaume Tell 59B, 1060 Sint-Gillis, Belgium.
