@@ -32,7 +32,7 @@ prices_title: Our prices
 prices_min_title: Price per minute
 prices_min_txt: At the end of the month all used riding minutes will be charged automatically.
 prices_pack_txt: Take a pack of minutes to ride cheaper&nbsp;!
-prices_pack_ask: Ask this pack
+prices_pack_ask: ''
 newsletter_txt: Subscribe to the Billy newsletter to receive the latest updates&nbsp;!
 newsletter_submit: Subscribe&nbsp;!
 follow_us: Follow us
