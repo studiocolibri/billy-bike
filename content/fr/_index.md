@@ -33,7 +33,7 @@ numbers02: communes
 numbers03: ans d'opérations à Bruxelles
 prices_title: Nos tarifs
 prices_min_title: Prix à la minute
-prices_min_txt: Á la fin du mois le total de vos utilisations vous sera débité.
+prices_min_txt: Pas de coût de prise en charge!
 prices_pack_txt: Prenez un pack de minutes pour rouler moins cher&nbsp;!
 prices_pack_ask: ''
 newsletter_txt: Abonnez-vous à la newsletter Billy pour recevoir les dernières updates&nbsp;!
