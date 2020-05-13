@@ -10,5 +10,33 @@
     var menuToggle=document.querySelector("#site-nav__toggle"),siteHeader=document.querySelector("#site-header"),menuLinks=document.querySelectorAll(".site-nav__link");function closeMenu(){menuToggle.setAttribute("aria-expanded","false"),siteHeader.classList.remove("is-active")}menuToggle.addEventListener("click",function(){siteHeader.classList.contains("is-active")?closeMenu():(siteHeader.classList.add("is-active"),this.setAttribute("aria-expanded","true"))}),menuLinks.forEach(function(e){e.addEventListener("click",closeMenu)});
     
     // site-navigation smooth scroll
-    "use strict";function scrollIt(e){var n=1<arguments.length&&void 0!==arguments[1]?arguments[1]:200,t=2<arguments.length&&void 0!==arguments[2]?arguments[2]:"linear",o=arguments[3],u={linear:function(e){return e},easeInQuad:function(e){return e*e},easeOutQuad:function(e){return e*(2-e)},easeInOutQuad:function(e){return.5>e?2*e*e:(4-2*e)*e-1},easeInCubic:function(e){return e*e*e},easeOutCubic:function(e){return--e*e*e+1},easeInOutCubic:function(e){return.5>e?4*e*e*e:(e-1)*(2*e-2)*(2*e-2)+1},easeInQuart:function(e){return e*e*e*e},easeOutQuart:function(e){return 1- --e*e*e*e},easeInOutQuart:function(e){return.5>e?8*e*e*e*e:1-8*--e*e*e*e},easeInQuint:function(e){return e*e*e*e*e},easeOutQuint:function(e){return 1+--e*e*e*e*e},easeInOutQuint:function(e){return.5>e?16*e*e*e*e*e:1+16*--e*e*e*e*e}},i=window.pageYOffset,r="now"in window.performance?performance.now():(new Date).getTime(),c=Math.max(document.body.scrollHeight,document.body.offsetHeight,document.documentElement.clientHeight,document.documentElement.scrollHeight,document.documentElement.offsetHeight),a=window.innerHeight||document.documentElement.clientHeight||document.getElementsByTagName("body")[0].clientHeight,d="number"==typeof e?e:e.offsetTop,l=Math.round(c-d<a?c-a:d);return 0=="requestAnimationFrame"in window?(window.scroll(0,l),void(o&&o())):void function e(){var c="now"in window.performance?performance.now():(new Date).getTime(),a=Math.min(1,(c-r)/n),d=u[t](a);return window.scroll(0,Math.ceil(d*(l-i)+i)),window.pageYOffset===l?void(o&&o()):void requestAnimationFrame(e)}()}function getAnchor(e){return e.split("#").length>1?e.split("#")[1]:null}var siteNavLinks=document.querySelectorAll("a.site-nav__link--anchor");siteNavLinks.forEach(function(e){let n=getAnchor(e.href),t=document.getElementById(n);e.addEventListener("click",function(e){e.preventDefault(),scrollIt(t,800,"easeOutQuad")})});var howBtn=document.getElementById("how-btn"),howSection=document.getElementById("comment");howBtn.addEventListener("click",function(e){e.preventDefault(),scrollIt(howSection,800,"easeOutQuad")});</script>
+    "use strict";function scrollIt(e){var n=1<arguments.length&&void 0!==arguments[1]?arguments[1]:200,t=2<arguments.length&&void 0!==arguments[2]?arguments[2]:"linear",o=arguments[3],u={linear:function(e){return e},easeInQuad:function(e){return e*e},easeOutQuad:function(e){return e*(2-e)},easeInOutQuad:function(e){return.5>e?2*e*e:(4-2*e)*e-1},easeInCubic:function(e){return e*e*e},easeOutCubic:function(e){return--e*e*e+1},easeInOutCubic:function(e){return.5>e?4*e*e*e:(e-1)*(2*e-2)*(2*e-2)+1},easeInQuart:function(e){return e*e*e*e},easeOutQuart:function(e){return 1- --e*e*e*e},easeInOutQuart:function(e){return.5>e?8*e*e*e*e:1-8*--e*e*e*e},easeInQuint:function(e){return e*e*e*e*e},easeOutQuint:function(e){return 1+--e*e*e*e*e},easeInOutQuint:function(e){return.5>e?16*e*e*e*e*e:1+16*--e*e*e*e*e}},i=window.pageYOffset,r="now"in window.performance?performance.now():(new Date).getTime(),c=Math.max(document.body.scrollHeight,document.body.offsetHeight,document.documentElement.clientHeight,document.documentElement.scrollHeight,document.documentElement.offsetHeight),a=window.innerHeight||document.documentElement.clientHeight||document.getElementsByTagName("body")[0].clientHeight,d="number"==typeof e?e:e.offsetTop,l=Math.round(c-d<a?c-a:d);return 0=="requestAnimationFrame"in window?(window.scroll(0,l),void(o&&o())):void function e(){var c="now"in window.performance?performance.now():(new Date).getTime(),a=Math.min(1,(c-r)/n),d=u[t](a);return window.scroll(0,Math.ceil(d*(l-i)+i)),window.pageYOffset===l?void(o&&o()):void requestAnimationFrame(e)}()}function getAnchor(e){return e.split("#").length>1?e.split("#")[1]:null}var siteNavLinks=document.querySelectorAll("a.site-nav__link--anchor");siteNavLinks.forEach(function(e){let n=getAnchor(e.href),t=document.getElementById(n);e.addEventListener("click",function(e){e.preventDefault(),scrollIt(t,800,"easeOutQuad")})});var howBtn=document.getElementById("how-btn"),howSection=document.getElementById("comment");howBtn.addEventListener("click",function(e){e.preventDefault(),scrollIt(howSection,800,"easeOutQuad")});
+
+
+
+document.addEventListener('click', function (e) {
+    e = e || window.event;
+    var target = e.target || e.srcElement;
+
+    if (target.hasAttribute('data-toggle') && target.getAttribute('data-toggle') == 'modal') {
+        if (target.hasAttribute('data-target')) {
+            var m_ID = target.getAttribute('data-target');
+            document.getElementById(m_ID).classList.add('open1');
+            e.preventDefault();
+        }
+    }
+
+    // Close modal window with 'data-dismiss' attribute or when the backdrop is clicked
+    if ((target.hasAttribute('data-dismiss') && target.getAttribute('data-dismiss') == 'modal') || target.classList.contains('modal')) {
+        var modal = document.querySelector('[class="modal open1"]');
+        modal.classList.remove('open1');
+        e.preventDefault();
+    }
+}, false);
+
+
+
+
+
+</script>
 

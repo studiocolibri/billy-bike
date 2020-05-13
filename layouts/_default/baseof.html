@@ -22,8 +22,62 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.PostCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
     {{ partial "site-favicon.html" . }}
+	  <style>
+	  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    overflow: auto;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+.modal-window {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 75%;
+    margin: 10% auto;
+    padding: 40px;
+	border-radius: 5px;
+	text-align: center;
+}
+		  
+.modal-window img {
+    max-width: 100%;
+	margin: 20px 0;
+}
+
+
+.close1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgba(0,0,0,0.3);
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    line-height: 30px;
+	    cursor: pointer;
+
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000000;
+    cursor: pointer;
+}
+
+.open1 {
+    display: block;
+}
+
+	  </style>
   </head>
-  <body id="top"><!-- Google Tag Manager (noscript) -->
+  <body id="top" onload="document.getElementById('osx').click();"><!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZMK335"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) --><script>
