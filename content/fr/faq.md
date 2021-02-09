@@ -11,7 +11,7 @@ Billy is a service that provides shared electric bikes with no docking stations.
 
 ## How does it work?
 
-[https://www.youtube.com/embed/v-MjeaBIc6E](https://www.youtube.com/embed/v-MjeaBIc6E "https://www.youtube.com/embed/v-MjeaBIc6E")
+Watch the 1 minute how-to video: [https://www.youtube.com/embed/v-MjeaBIc6E](https://www.youtube.com/embed/v-MjeaBIc6E "https://www.youtube.com/embed/v-MjeaBIc6E")
 
 ### Reserve
 
