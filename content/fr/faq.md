@@ -11,6 +11,8 @@ Billy is a service that provides shared electric bikes with no docking stations.
 
 ## How does it work?
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/v-MjeaBIc6E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Reserve
 
 1\. Select the nearest bicycle on the app.  
@@ -160,7 +162,7 @@ End your trip and secure it to a pole, make sure to report any minor or signific
 
 ### What if the bike gets stolen during my reservation?
 
-Immediately call us. We will inform you that you need to file a complaint with the police and will guide you through following steps. (See section 3.4 of the Terms and Conditions)
+Immediately contact us. We will inform you that you need to file a complaint with the police and will guide you through following steps. (See section 3.4 of the Terms and Conditions)
 
 ### What if the bike is already damaged when I book it?
 
