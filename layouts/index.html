@@ -167,10 +167,62 @@
       <p class="prix__description">{{ .Params.prices_pack_txt | safeHTML }}</p>
       <p class="prix__price">€0,15/min</p>
       <p class="prix__ask-pack">
-        <a href="mailto:team@billy.bike">{{ .Params.prices_pack_ask }}</a>
+        <a href="mailto:team@billy.bike">	{{ .Params.prices_pack_ask }}</a>
+      </p>
+    </div>
+  </section>  
+<section id="prix" class="home-section block-mw">
+    <h1 class="home-section__title prix__title">Subscriptions</h1>
+    <div class="prix__block">
+      <h2 class="prix__subtitle">UNLIMITED UNLOCKS</h2>
+      <p class="prix__description">No unlock fees.</p>
+      <p class="prix__price">€4,99/month + €0,20/min</p>
+		      <p class="prix__ask-pack">
+        <a href="mailto:team@billy.bike">ask</a>
+      </p>
+    </div>
+    <div class="prix__block">
+      <h2 class="prix__subtitle">50% DISCOUNT</h2>
+      <p class="prix__description">No unlock fees.</p>
+      <p class="prix__price">€14,99/month + €0,10/min</p>
+      <p class="prix__ask-pack">
+        <a href="mailto:team@billy.bike">ask</a>
+      </p>
+    </div>
+    <div class="prix__block">
+      <h2 class="prix__subtitle">YEARLY UNLIMITED</h2>
+      <p class="prix__description">Unlimited rides of 30 minutes. No unlock fee. After 30 minutes: €0,20/min</p>
+      <p class="prix__price">€599/year</p>
+      <p class="prix__ask-pack">
+        <a href="mailto:team@billy.bike">ask</a>
+      </p>
+    </div>
+  </section>  
+<section id="prix" class="home-section block-mw">
+    <h1 class="home-section__title prix__title">Passes</h1>
+    <div class="prix__block">
+      <h2 class="prix__subtitle">PASS 8h</h2>
+      <p class="prix__description">Unlimited rides during 8h, starting from the moment of purchase. No unlock fees.</p>
+      <p class="prix__price">€19</p>
+    </div>
+    <div class="prix__block">
+      <h2 class="prix__subtitle">PASS 24h</h2>
+      <p class="prix__description">Unlimited rides during 24h, starting from the moment of purchase. No unlock fees.
+</p>
+      <p class="prix__price">€29</p>
+      <p class="prix__ask-pack">
+      </p>
+    </div>
+    <div class="prix__block">
+      <h2 class="prix__subtitle">PASS 48h</h2>
+      <p class="prix__description">Unlimited rides during 48h, starting from the moment of purchase. No unlock fees.
+</p>
+      <p class="prix__price">€39</p>
+      <p class="prix__ask-pack">
       </p>
     </div>
   </section>
+<br><br><br>
   <section id="contact" class="home-section block-mw">
     <form method="POST" data-netlify="true" class="contact-form">
       <h1 class="contact__title">{{ .Params.newsletter_txt | safeHTML}}</h1>
