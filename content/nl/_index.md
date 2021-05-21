@@ -6,9 +6,9 @@ hero_description: Elektrische deelfietsen die je overal in Brussel kunt nemen en
 bike_title: De fiets
 bike_description: Billy fietsen zijn ontworpen om optimaal comfort te bieden in de
   straten van Brussel. Het brede zadel, dikke banden en de voorvering helpen kasseien
-  en tramrails temmen. Met zijn grote mand kunt u tot 20 kilos dragen zonder de richting
-  en stabiliteit te beïnvloeden. En dankzij de elektrische aandrijving tot 25 km /
-  u voelt u de hellingen van Brussel niet.
+  en tramrails temmen. Met zijn grote mand kunt u heel wat meenemen zonder de stabiliteit
+  te beïnvloeden. En dankzij de elektrische aandrijving tot 25 km / u voelt u de hellingen
+  van Brussel niet.
 bike_how: Hoe werkt het&nbsp;?
 how_title: Hoe werkt het&nbsp;?
 how_block01_title: 1. Zoek en boek
