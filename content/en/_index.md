@@ -21,10 +21,9 @@ how_block04_title: 4. Parking
 how_block04_txt: Always secure your bike to a pole or rack with the chain.
 area_alt_map: Map of the area
 area_title: The area
-area_txt: Billy is currently available in the municipalities of Brussels, Laeken,
-  Schaerbeek, Etterbeek, Ixelles, Saint-Gilles, Molenbeek-Saint-Jean, Watermael-Boisfort,
-  Auderghem, Woluwé-Saint-Pierre, Woluwé-Saint-Lambert, Forest, Saint-Josse-Ten-Noode
-  and Uccle.
+area_txt: Billy is currently available in the municipalities of Brussels, Schaerbeek,
+  Etterbeek, Ixelles, Saint-Gilles, Molenbeek-Saint-Jean, Watermael-Boisfort, Auderghem,
+  Woluwé-Saint-Pierre, Woluwé-Saint-Lambert, Forest, Saint-Josse-Ten-Noode and Uccle.
 numbers01: bicycles
 numbers02: communes
 numbers03: years in Brussels
