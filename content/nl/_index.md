@@ -21,9 +21,9 @@ how_block04_title: 4. Parkeren
 how_block04_txt: Maak je fiets altijd vast aan een paal of rek met zijn ketting.
 area_alt_map: Kaart van de zone
 area_title: De zone
-area_txt: Billy is vandaag aanwezig in de gemeenten Brussel-Stad, Laeken, Schaerbeek,
-  Etterbeek, Elsene, Sint-Gillis, Molenbeek-Sint-Jan, Watermael-Bosvoorde, Ouderghem,
-  Woluwe-Sint-Pieters, Sint-Lamberts-Woluwe, Vorst, Sint-Joost-Ten-Noode en Ukkel.
+area_txt: Billy is vandaag aanwezig in de gemeenten Brussel-Stad, Schaerbeek, Etterbeek,
+  Elsene, Sint-Gillis, Molenbeek-Sint-Jan, Watermael-Bosvoorde, Ouderghem, Woluwe-Sint-Pieters,
+  Sint-Lamberts-Woluwe, Vorst, Sint-Joost-Ten-Noode en Ukkel.
 numbers01: fietsen
 numbers02: gemeentens
 numbers03: jaren in Brussel
