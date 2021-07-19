@@ -33,7 +33,7 @@ numbers02: communes
 numbers03: ans d'opérations à Bruxelles
 prices_title: Nos tarifs
 prices_min_title: Prix à la minute
-prices_min_txt: Pas de coût de prise en charge!
+prices_min_txt: 'Coût de prise en charge : 1€'
 prices_pack_txt: Prenez un pack de minutes pour rouler moins cher&nbsp;!
 prices_pack_ask: ''
 newsletter_txt: Abonnez-vous à la newsletter Billy pour recevoir les dernières updates&nbsp;!
