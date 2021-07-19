@@ -29,7 +29,7 @@ numbers02: gemeentens
 numbers03: jaren in Brussel
 prices_title: Onze tarieven
 prices_min_title: Prijs per minuut
-prices_min_txt: Geen ontgrendelingskost!
+prices_min_txt: 'Ontgrendelingskost! : 1€'
 prices_pack_txt: Neem een ​​minutenpakket om goedkoper te rijden&nbsp;  !
 prices_pack_ask: ''
 newsletter_txt: Schrijf je in op de Billy-nieuwsbrief om de laatste updates te ontvangen&nbsp;!
